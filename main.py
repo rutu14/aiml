@@ -15,6 +15,39 @@ x = count(start=0, step=1)
 mnb = pickle.load(open('mnb.pickle', 'rb'))
 log = pickle.load(open('log.pickle', 'rb'))
 
+def writeunique(message):
+
+    message=message.lower()
+    message = ' '.join(str(TextBlob(str(word)).correct()) for word in message.split())
+    try:
+        with open('newdata.csv') as csv_f:
+            csv_f = csv.reader(csv_f)
+            for row in csv_f:
+                if(row[0]==message):
+                    return
+
+        with open('newdata.csv', 'a', newline="") as fi:
+            csv_w = csv.writer(fi)
+            csv_w.writerow([message])
+            fi.close()
+
+        with open('data.csv', 'a', newline="") as file:
+            csv_w = csv.writer(file)
+            csv_w.writerow([message])
+            file.close()
+
+    except :
+        with open('newdata.csv', 'a', newline="") as file:
+            csv_w = csv.writer(file)
+            csv_w.writerow([message])
+            file.close()
+
+        with open('data.csv', 'a', newline="") as fi:
+            csv_w = csv.writer(fi)
+            csv_w.writerow([message])
+            fi.close()
+
+
 def sendmail():
 
     port = 465  
@@ -87,15 +120,8 @@ def ask():
 
                 else:
                     gt="Please contact admission cell: 022-61082400"
-                    csv_re = csv.reader(open('data.csv',encoding='utf-8'))
-                    with open('newdata.csv', 'a', newline="") as file:
-                        csv_w = csv.writer(file)
-                        csv_w.writerow([message])
-                        file.close()
-                    with open('data.csv', 'a', newline="") as file:
-                        csv_w = csv.writer(file)
-                        csv_w.writerow([message])
-                        file.close()
+                    writeunique(message)
+
                     with open('newdata.csv') as check:
                         csv_r = csv.reader(check)
                         if(len(list(csv_r))>=10):
