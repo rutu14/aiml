@@ -116,7 +116,7 @@ def ask():
                             gt=row[1]
                             print (row[1])
 
-                elif(next(x)<1):                
+                elif(next(x)<2):                
                     gt="Please provide more information"
 
                 else:
