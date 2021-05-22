@@ -120,7 +120,7 @@ def ask():
                     gt="Please provide more information"
 
                 else:
-                    gt="Please contact admission cell: 022-61082400"
+                    gt="Please contact admission cell:<br> 022-61082400"
                     writeunique(message)
 
                     with open('newdata.csv') as check:
