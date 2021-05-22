@@ -8,7 +8,7 @@
                                    <!-- ON NO -->
     <category>
         <pattern> I WOULD LIKE TO TYPE MY QUERY </pattern>
-        <template>$Please type in the textbox below.You can find more details on the website
+        <template>$Please type in the textbox below.
         </template>
     </category>
                                   <!-- ON YES-->
