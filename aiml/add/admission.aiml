@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+	                    <!-- ADMISSION -->
+	<category>
+        <pattern>ADMISSION</pattern>
+        <template>$ Happy to help you with admission enquiry choose from the below option
+             #Application
+             #Seats
+            #Important or Latest
+            #Management admission
+            #Minority admission
+           #Others
+         </template>
+    </category>
+
+                   <!-- APPLICATION -->
+    <category>
+        <pattern>APPLICATION</pattern>
+        <template>$
+            #Do You have doubts related to the procedure of application
+            #Do You have doubts related to the documentation of application
+           #Do You have Doubt Related to Eligibility or cutoff
+        </template>
+    </category>
+
+                      <!-- PROCEDURE -->
+    <category>
+        <pattern>DO YOU HAVE DOUBTS RELATED TO THE PROCEDURE OF APPLICATION</pattern>
+        <template>$
+            #How to apply What is the application procedure
+            #Can I apply now before the class 12 results
+            #How does the college admit students
+            #What is the DTE code of SIES Graduate School of Technology
+        </template>
+    </category>
+    <category>
+        <pattern>HOW TO APPLY WHAT IS THE APPLICATION PROCEDURE</pattern>
+        <template>$The application process for engineering admission is conducted by State Common Entrance Test Cell,Govt. of Maharashtra. It is MANDATORY for the candidate to REGISTER and ENROL on the website  for becoming part of the Central Admission Process(CAP).
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I APPLY NOW BEFORE THE CLASS 12 RESULTS</pattern>
+        <template>$No, you need to apply only after the result of XII and CET/JEE result.</template>
+    </category>
+    <category>
+        <pattern>HOW DOES THE COLLEGE ADMIT STUDENTS</pattern>
+        <template>$There are Two ways:
+        #$Seats allotted by DTE through online CAP  process
+        #$Management quota through merit basis prepared by the institute. We do not accept any Capitation Fees
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE DTE CODE OF SIES GRADUATE SCHOOL OF TECHNOLOGY</pattern>
+        <template>$The DTE code of SIES Graduate School of Technology is 3211</template>
+    </category>
+
+
+                             <!-- DOCUMENTS-->
+
+
+    <category>
+        <pattern>DO YOU HAVE DOUBTS RELATED TO THE DOCUMENTATION OF APPLICATION</pattern>
+        <template>$
+            #What are the documents required for admission
+          #Is It Mandatory To Submit All Required Document In Original
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE DOCUMENTS REQUIRED FOR ADMISSION</pattern>
+        <template>$A Student applying for admission should carry the original and 2 sets of photocopies of all his testimonials. The documents required are:
+         #$Adhaar Card
+             #$10th Marksheet
+             #$12th Marksheet
+             #$Proof of Entrance Exam
+             #$5 passport size photographs
+             #$Proof of Gap years (if any)
+             #$Domicile certificate
+             #$Birth certificate
+             #$Minority Language certificate
+         </template>
+    </category>
+    <category>
+        <pattern>IS IT MANDATORY TO SUBMIT ALL REQUIRED DOCUMENT IN ORIGINAL</pattern>
+        <template>$Yes. Your admission is confirmed only when you pay the fees as applicable and submit all the required documents in original.</template>
+    </category>
+
+
+
+                            <!-- Eligibility/cutoff -->
+
+
+    <category>
+        <pattern>DO YOU HAVE DOUBT RELATED TO ELIGIBILITY OR CUTOFF</pattern>
+        <template>$
+            #What are the eligibility criteria for admission
+            #What was the cut off percentage of your college for the last year
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE ELIGIBILITY CRITERIA FOR ADMISSION</pattern>
+        <template>$Candidates intending to apply for B. E. should pass XIIth examination in English with minimum 50% marks in Physics, Chemistry (could be replaced with permissible technical vocational subject) and Mathematics. Further, the candidate is also required to have a valid score in MHT – CET / JEE (Main) for that Year.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT WAS THE CUT OFF PERCENTAGE OF YOUR COLLEGE FOR THE LAST YEAR</pattern>
+        <template>$The Cutoff varies from branch to branch.Also, the cutoff for different quota(eg.minority quota,DTE open candidate home university quota,other university quota,Institute level quota, TFWS quota,jammu and kashmir quota etc.)is different. So this query can be answered during personal interaction. Still for the reference the round-wise cut off list is available on the DTE website.</template>
+    </category>
+
+
+
+                                        <!-- SEATS -->
+
+
+    <category>
+        <pattern>SEATS</pattern>
+        <template>$#How many total seats are there
+           #How many seats branch wise
+           #How many are Total Open Seats branch wise
+           #How many are Total Minority Seats branch wise
+           #How many are Total Management Seats branch wise
+           #What is TFWS seat
+       </template>
+    </category>
+    <category>
+        <pattern>HOW MANY TOTAL SEATS ARE THERE</pattern>
+        <template>$390</template>
+    </category>
+    <category>
+        <pattern>HOW MANY ARE TOTAL OPEN SEATS BRANCH WISE</pattern>
+        <template>$#$Electronics and Telecommunication Engineering-35
+                #$Computer Engineering-26
+                #$Information Technology-17
+                #$Printing and Packaging Technology-17
+                #$Mechanical Engineering-17
+        </template>
+    </category>
+    <category>
+        <pattern>HOW MANY SEATS BRANCH WISE</pattern>
+        <template>$#$Electronics and Telecommunication Engineering-120
+                #$Computer Engineering-90
+                #$Information Technology-60
+                #$Printing and Packaging Technology-60
+                #$Mechanical Engineering-60
+        </template>
+    </category>
+    <category>
+        <pattern>HOW MANY ARE TOTAL MINORITY SEATS BRANCH WISE</pattern>
+        <template>$#$Electronics and Telecommunication Engineering-61
+                #$Computer Engineering-46
+                #$Information Technology-31
+                #$Printing and Packaging Technology-31
+                #$Mechanical Engineering-31
+        </template>
+    </category>
+    <category>
+        <pattern>HOW MANY ARE TOTAL MANAGEMENT SEATS BRANCH WISE</pattern>
+        <template>$#$Electronics and Telecommunication Engineering-24
+                #$Computer Engineering-18
+                #$Information Technology-12
+                #$Printing and Packaging Technology-12
+                #$Mechanical Engineering-12
+            </template>
+    </category>
+
+
+
+                              <!-- Important/LATEST -->
+
+
+
+    <category>
+        <pattern>IMPORTANT OR LATEST</pattern>
+        <template>$#Important links
+           #What are the important dates related to admission 
+         </template>
+    </category>
+    <category>
+        <pattern>IMPORTANT LINKS</pattern>
+        <template>$Links are: #@http://cetcell.mahacet.org/
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE IMPORTANT DATES RELATED TO ADMISSION </pattern>
+        <template>$The detailed schedule of the admission procedure is available on #@http://www.dtemaharashtra.gov.in/index.html/ #$in as FE notification.</template>
+    </category>
+
+
+
+
+                               <!-- MANAGEMENT ADMISSION -->
+
+
+
+
+    <category>
+        <pattern>MANAGEMENT ADMISSION</pattern>
+        <template>$#How can I apply for Institute level seat or Management quota
+            #What is the procedure of admission for Institute/Management seats
+            #If I apply for Institute/Management seat will I definitely get admission
+            #I would like to take admission through management quota, is it still mandatory to register on DTE web portal
+            #How many are Total Management Seats branch wise
+        </template>
+    </category>
+    <category>
+        <pattern>HOW CAN I APPLY FOR INSTITUTE LEVEL SEAT OR MANAGEMENT QUOTA</pattern>
+        <template>$You need to register with DTE first and then fill college application form. You can do it online also by purchasing admission brochure to register</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE PROCEDURE OF ADMISSION FOR INSTITUTE/MANAGEMENT SEATS</pattern>
+        <template>$Admission through institute/management quota in SIES is purely on the basis of MERIT. All the candidates applying under quota will be eligible for participating in admission process. But registration with DTE is mandatory. A separate ( Different from DTE) merit list will be prepared and displayed and the candidates will be called for counselling round/s. Rules and regulations are same as of DTE</template>
+    </category>
+    <category>
+        <pattern>IF I APPLY FOR INSTITUTE/MANAGEMENT SEAT WILL I DEFINITELY GET ADMISSION</pattern>
+        <template>$NO. Merely applying doesn’t ensure admission in the institute. Admission depends on the merit list and the top candidates confirming/accepting the seat in the branch of their choice.</template>
+    </category>
+    <category>
+    	<pattern>I WOULD LIKE TO TAKE ADMISSION THROUGH MANAGEMENT QUOTA,IS IT STILL MANDATORY TO REGISTER ON DTE WEB PORTAL</pattern>
+    	<template>$YES. Registration and Enrolment on the web portal of State Common Entrance Test Cell, Govt. of Maharashtra is MANDATORY.</template>
+    </category>
+    
+
+                                 <!-- MINORITY ADMISSION -->
+
+
+    <category>
+        <pattern>MINORITY ADMISSION</pattern>
+        <template>$
+            #How many are Total Minority Seats branch wise
+            #What is the meaning of Minority Institution
+            #How to obtain minority status confirmation certificate
+            #I do not belong to Minority can I get admission in SIESGST
+         </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE MEANING OF MINORITY INSTITUTION</pattern>
+        <template>$Minority Institution means seats earmarked for the Minority Community students from within the State, belonging to the Minority Community either Linguistic (based on the mother tongue) or Religious to which the institution belongs. Our institute belongs to Tamil - Linguistic Minority category. This provision is made as per the Constitution of India.</template>
+    </category>
+    <category>
+        <pattern>HOW TO OBTAIN MINORITY STATUS CONFIRMATION CERTIFICATE</pattern>
+        <template>$A format will be provided (Form O) in the DTE/CET Cell Information Brochure and the duly filled format to be submitted at the time of form submission. However, the duly filled format to be submitted in Rs.100/- stamp paper and duly notarised.</template>
+    </category>
+    <category>
+        <pattern>I DO NOT BELONG TO MINORITY CAN I GET ADMISSION IN SIESGST</pattern>
+        <template>$You can apply as Open candidate through Centralised Admission Process(Conducted by the Maharashtra State CET Cell)  or under Management Quota through the respective institute.
+        </template>
+    </category>
+
+
+
+
+                                        <!-- OTHERS -->
+
+
+
+    <category>
+        <pattern>OTHERS</pattern>
+        <template>$
+            #How does the college admit students
+            #Do you have any agents through whom we can apply
+            #Can I get guidance for Admissions
+            #Can students from other states of India take admission through Central Admission Process
+      </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE ANY AGENTS THROUGH WHOM WE CAN APPLY</pattern>
+        <template>$We do not have any agents through whom you can apply. Students/ Parents should contact us directly for any information/admission. Our admission process is very transparent. We follow all the guidelines of DTE. We do not charge any Capitation fees. For Institute quota also fees is same as other students.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I GET GUIDANCE FOR ADMISSIONS</pattern>
+        <template>$Yes. You will be provided all necessary guidance through Admission Cell.</template>
+    </category>
+    <category>
+        <pattern>CAN STUDENTS FROM OTHER STATES OF INDIA TAKE ADMISSION THROUGH CENTRAL ADMISSION PROCESS</pattern>
+        <template>$Yes but, they should have a valid score in MH – CET / JEE (Main) for that Year and should pass XIIth examination in English with minimum 50% marks in Physics, Chemistry (could be replaced with permissible technical vocational subject) and Mathematics.</template>
+    </category>
+</aiml>

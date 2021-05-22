@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+        <pattern>COLLEGE DETAILS</pattern>
+        <template>$
+         #Location and Working
+         #Branch
+         #Infrastructure
+         #Placements and IV
+         #Others
+    </template>
+    </category>
+
+
+                                 <!-- Location and working-->
+
+
+     <category>
+        <pattern>LOCATION AND WORKING</pattern>
+        <template>$
+          #How far is the Institute Campus from Nerul station
+          #What are college timings Is Saturday working
+        </template>
+    </category>
+    <category>
+        <pattern>HOW FAR IS THE INSTITUTE CAMPUS FROM NERUL STATION</pattern>
+        <template>$Campus is approximately 2 km away from the nerul station. Anyone can easily walk down. Also shared autos are available 24x7.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE COLLEGE TIMINGS IS SATURDAY WORKING</pattern>
+        <template>$College timings are 9 am to 5 pm. On Saturday, regular lectures are not there but most of the activities are conducted on Saturday. Please do not enrol your ward for any tuitions outside. Our faculty members are very experienced to provide extra guidance to students.
+        </template>
+    </category>
+
+                                    <!-- Branch-->
+
+
+    <category>
+        <pattern>BRANCH</pattern>
+        <template>$
+         #What are the branches available in college
+         #What is difference between BE and BTech
+         #What is difference between IT and Computer Engineering
+         #Can we change the branch at second year level
+         #Which branch of Engineering is the best
+         #How many seats branch wise
+        </template>
+    </category>
+      <category>
+        <pattern>WHAT ARE THE BRANCHES AVAILABLE IN COLLEGE</pattern>
+        <template>$There are five branches:
+            #$Computer Engineering
+            #$Information Technology
+            #$Mechanical Engineering
+            #$Electronics and Telecommunication
+            #$Printing and Packaging Technology
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS DIFFERENCE BETWEEN BE AND BTECH</pattern>
+        <template>$Practically there is no difference B.E. is Bachelor of Engineering and B. Tech. is Bachelor of Technology. In the state of Maharashtra most of the universities have named the engineering course as BE while IIT’s and few autonomous institutes like COE, Pune have named their programs as B.Tech. Students are requested to go through the syllabus to know more about the program.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS DIFFERENCE BETWEEN IT AND COMPUTER ENGINEERING</pattern>
+        <template>$Our expert faculty will provide necessary guidance
+        </template>
+    </category>
+    <category>
+        <pattern>CAN WE CHANGE THE BRANCH AT SECOND YEAR LEVEL</pattern>
+        <template>$YES. But it depends upon the vacancy position in the branch of your choice. Additionally candidates should fulfil all the conditions/ rules laid down by the competent authorities. The branch/course change will be considered based on merit of First Year Engineering result/s.
+        </template>
+    </category>
+      <category>
+        <pattern>WHICH BRANCH OF ENGINEERING IS THE BEST</pattern>
+        <template>$All branches are good. It is important to understand the interest of your ward.
+        </template>
+    </category>
+
+                             <!-- Infrastructure-->
+     <category>
+        <pattern>INFRASTRUCTURE</pattern>
+        <template>$
+        #Is canteen facility available in campus
+        #Do you have hostel facility
+        #What kind of infrastructure is available in the college
+      </template>
+    </category>
+    <category>
+        <pattern>IS CANTEEN FACILITY AVAILABLE IN CAMPUS</pattern>
+        <template>$Yes. We have very good canteen facility and Cafeteria.  However, we insist on home food at first year level.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE HOSTEL FACILITY</pattern>
+        <template>$NO. But college provides guidance to avail hostel or separate room in the vicinity .
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT KIND OF INFRASTRUCTURE IS AVAILABLE IN THE COLLEGE</pattern>
+        <template>$Lush Green Campus , Eco-Smart Classroom with round the clock accessible WI-FI, Overhead projectors incorporated in everNO. But college provides guidance to avail hostel /separate room in the vicinity .
+y classroom for better teaching support, Thousands of Books accessible to students, with ease of access facility using Digital Library, State of the Art Labs, Air conditioned Auditorium, Seminar hall, Computer Center, Language Lab. Additionally we have Bank Facility, Stationery Shop, Student Recreation Area, ideal Campus Security with CCTV and state of the art Gym Facility.
+        </template>
+    </category>
+
+                               <!-- Placements and IV-->
+    <category>
+        <pattern>PLACEMENTS AND IV</pattern>
+        <template>$
+         #Do you have Industry tie ups Do you Arrange Industrial Visits
+         #What are the Extra Activities you arrange for students
+         #How are the Campus Placements Which companies do visit the campus for placements What is average salary drawn
+         #What is about internship
+     </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE INDUSTRY TIE UPS DO YOU ARRANGE INDUSTRIAL VISITS</pattern>
+        <template>$YES, Our Institute has signed MOUs with more than 10 industries.Industrial visit is a regular activity of our students.We have very Active Institute Industry Interaction Cell for seeking avenues of collaborative activities in the form of Projects or Training or Placement.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE EXTRA ACTIVITIES YOU ARRANGE FOR STUDENTS</pattern>
+        <template>$There are many active Students Chapters like IEEE, CSI, ISTE, ISHRE, BAHA etc which organises various Technical Events/Competitions. Apart from this, there are other activities are conducted under  Robotics Club, Literary Club, Music Group, Drama Club, Cultural Club, Sports Cell etc .
+        </template>
+    </category>
+    <category>
+        <pattern>HOW ARE THE CAMPUS PLACEMENTS WHICH COMPANIES DO VISIT THE CAMPUS FOR PLACEMENTS WHAT IS AVERAGE SALARY DRAWN</pattern>
+        <template>$Very GOOD, SIES GST has an exclusive Training and Placement Cell continuously engaged in the training and placement activities round the year. Quite a good number of companies carry out campus placements.
+                  Some of the recruiters visiting regularly includev Infosys, Cognizant, Endress+Hauser, Siemens, LTI, Persistent Systems, Tech Mahendra, Byjus, Jio, Endurance, Lombardini, Kelvolt, KPIT, Jindal Polyfilms, Patni Computers, Syntel, i-Flex, Mphasis, Videocon, John Deere, Seed Infotech, Varroc, Expert Global Solutions, and so on.Please visit the link on our website:
+                    #@http://www.siesgst.edu.in/#$ for more details.The salary ranges from 4 lac to 8 lac per annum.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS ABOUT INTERNSHIP</pattern>
+        <template>$Since the institution has many Industries tie ups, it helps students getting internships in industry. Apart from that our internal faculty members are working on different projects, offer internship to students.
+        </template>
+    </category>
+                                      <!-- Others-->
+    <category>
+        <pattern>OTHERS</pattern>
+        <template>$
+         #Is the Institute accredited And the grade of the institute
+         #How are the teachers in the college
+         #What is the DTE code of SIES Graduate School of Technology
+         #Is the college Autonomous
+       </template>
+    </category>
+    <category>
+        <pattern>IS THE INSTITUTE ACCREDITED AND THE GRADE OF THE INSTITUTE</pattern>
+        <template>$Yes. The institute is NAAC accredited with B++. Also we have applied for NBA accreditation and completed all necessary requirements. The peer team visit is awaited.
+        </template>
+    </category>
+     <category>
+        <pattern>HOW ARE THE TEACHERS IN THE COLLEGE</pattern>
+        <template>$The teachers are very well qualified , highly experienced and  dedicated.</template>
+    </category>
+     <category>
+        <pattern>IS THE COLLEGE AUTONOMOUS</pattern>
+        <template>$No, the college is not Autonomous. It is affiliated under the University of Mumbai.</template>
+    </category>
+</aiml>

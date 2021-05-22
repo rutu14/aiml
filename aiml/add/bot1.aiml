@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern> * </pattern>
+        <template>NULL        </template>
+    </category>
+                                   <!-- ON NO -->
+    <category>
+        <pattern> I WOULD LIKE TO TYPE MY QUERY </pattern>
+        <template>$Please type in the textbox below.You can find more details on the website
+        </template>
+    </category>
+                                  <!-- ON YES-->
+    <category>
+        <pattern> I WOULD GO WITH THE PROMPTS </pattern>
+        <template>$Choose option based on your doubt
+          #ADMISSION
+          #COLLEGE DETAILS
+          #FUNDS RELATED
+        </template>
+    </category>
+                       <!-- Greeting and Starting Question  -->
+  <category>
+      <pattern>HELLO</pattern>
+      <template>$Hi There👋,Do You have a query?
+          #I would go with the prompts #I would like to type my query
+      </template>
+  </category>
+  <category>
+      <pattern>RESTART</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>ALOH</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HI</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>GOOD EVENING</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>GOOD MORNING</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>GOOD AFTERNOON</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>GOOD DAY</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HALO</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HELLO *</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>* HELLO</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HI *</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>* HI</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>REPLY</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>OLA</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>GREETING</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>WHAT’S NEW</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>G’DAY</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HI!</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>MORNING</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HEY</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HEY *</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>YO</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>* HEY</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>HEY THERE</pattern>
+      <template>
+        <srai>HELLO</srai>
+      </template>
+  </category>
+</aiml>

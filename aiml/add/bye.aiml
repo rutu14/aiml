@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+<pattern>BYE</pattern>
+<template>$Thank you for visiting me.You can find more details on the website
+          #$http://www.siesgst.edu.in/
+</template>
+</category>
+
+<category>
+<pattern>BYE *</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BYE</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>BY</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>BY BY</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>BYE BYE</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>BYE BYE *</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>BYEBYE</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>BYEBYE *</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>DISCONNECT ME</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>END</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>EXIT</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GET LOST</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GO AWAY *</pattern>
+<template>
+<srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GO HOME</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GOOD BY</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GOOD BYE</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GOOD BYE *</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GOOD NITE</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GOODBY</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>GOODBYE</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>I AM LEAVING</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>I AM LEAVING *</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>Quit</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>* Quit</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+
+<category>
+<pattern>quit *</pattern>
+<template>
+ <srai>BYE</srai>
+</template>
+</category>
+</aiml>
+
+
+
+
+
+
+

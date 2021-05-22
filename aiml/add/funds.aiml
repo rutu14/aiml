@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+                        <!-- FUNDS RELATED -->
+    <category>
+        <pattern>FUNDS RELATED</pattern>
+        <template>$#Scholarship
+              #Fee
+        </template>
+    </category>
+
+
+                                <!-- Scholarship -->
+
+
+    <category>
+        <pattern>SCHOLARSHIP</pattern>
+        <template>$
+#What are the scholarship schemes available
+#Will the documents for Bank Loans be given
+#Can I Apply For Two Scholarships At A Time Like Say SC/ST/NT/VJ/SBC And Minority; Or OBC And Minority Or EBC And Minority Or TFWS And Minority
+#What is the eligibility for availing scholarship
+      </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SCHOLARSHIP SCHEMES AVAILABLE</pattern>
+        <template>$Apart from Government scholarship schemes, many private scholarships are available. The management SEAT scholarships are also available
+        </template>
+    </category>
+    <category>
+        <pattern>WILL THE DOCUMENTS FOR BANK LOANS BE GIVEN</pattern>
+        <template>$Yes, documents for Bank Loans will be issued after the confirmation of admission
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I APPLY FOR TWO SCHOLARSHIPS AT A TIME LIKE SAY SC/ST/NT/VJ/SBC AND MINORITY OR OBC AND MINORITY OR EBC AND MINORITY OR TFWS AND MINORITY</pattern>
+        <template>$NO. At any given point of time, you are eligible to apply for any ONE of the scholarship schemes as discussed above. If found violating this, serious action can be initiated against the candidate / student.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE ELIGIBILITY FOR AVAILING SCHOLARSHIP</pattern>
+        <template>$Candidate should be domiciled in the State of Maharashtra and produce all required documents as per scholarship category and prevailing norms.</template>
+    </category>
+
+
+                                 <!-- FEES -->
+
+
+
+    <category>
+        <pattern>FEE</pattern>
+        <template>$
+            #Is It Mandatory To Pay Tuition Fees In One Instalment Only Every Year
+#Does Tuition Fees remain same till the completion of the Course
+#What is TFWS seat
+            #Can we get Category Concession in fees
+#What is the fee structure of the college
+       </template>
+    </category>
+    <category>
+        <pattern>IS IT MANDATORY TO PAY TUITION FEES IN ONE INSTALMENT ONLY EVERY YEAR</pattern>
+        <template>$YES, however, it can be paid in instalments with special permission and subject to norms and conditions laid down by the Management.</template>
+    </category>
+    <category>
+        <pattern>DOES TUITION FEES REMAIN SAME TILL THE COMPLETION OF THE COURSE</pattern>
+        <template>$Generally YES. However, the guidelines will be followed as prescribed by the concerned authority (Fee regulation Authority) from time to time.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS TFWS SEAT</pattern>
+        <template>$It is Tuition Fee Waiver Scheme by AICTE/Government of Maharashtra for meritorious students from state of Maharashtra and having their parents annual income below 6.00 lakh. These seats shall be filled by competent authorities.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN WE GET CATEGORY CONCESSION IN FEES</pattern>
+        <template>$Category Concession is applicable ONLY to the candidates who have secured admission through CAP and belonging to Maharashtra. Concession is applicable as per the government  resolution/ directives  issued by competent authorities.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE FEE STRUCTURE OF THE COLLEGE</pattern>
+        <template>$Fees is as per the DTE rules. It is displayed on website #@http://dtemaharashtra.gov.in/
+                </template>
+    </category>
+</aiml>

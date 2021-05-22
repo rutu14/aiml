@@ -1,0 +1,17 @@
+<aiml version="1.0.1">
+
+<!-- This category works with the standard AIML Set -->
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+
+<!-- Load standard AIML set -->
+<learn>aiml/add/bot1.aiml</learn>
+<learn>aiml/add/admission.aiml</learn>
+<learn>aiml/add/college.aiml</learn>
+<learn>aiml/add/funds.aiml</learn>
+<learn>aiml/add/bye.aiml</learn>
+</template>
+</category>
+
+</aiml>
